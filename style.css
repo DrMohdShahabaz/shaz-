@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #EAF6F6;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1 {
+    margin: 0px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: rgb(1, 6, 6);
+    line-height:2;
+
+}
+
+
+h2 {
+    font-size: 30px;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+
+a { 
+    color:#11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6;
+}
+h3{
+    color: #3abbbb;
+}
+hr{
+    
+    color: #010b0b ;
+    width: 100px;
+    border-style: dotted;
+    border-top:none;
+    border-width: 6px;
+    
+}
+
+
+
+
+
+
+
+/***********class selector***********/
+
+.heading {
+    background-color: #a3e8e8;
+    padding-top: 50px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.middle-container{
+    background-color: #EAF6F6;
+}
+
+.topcloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+}
+
+
+.bottomcloud {
+    position: absolute;
+    left: 250px;
+    bottom:300px;
+}
+.topcloud:hover {
+    animation-name: none;
+}
+
+.programmer:hover {
+    background-color: gold;
+}
+
+
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-delay: 0s;
+
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+h2 {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 0s;
+
+}
+
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.circular {
+    border-radius: 60%;
+}
+
+.shaz:hover {
+    animation-name: none;
+}
+
+.skill-row {
+ width: 50%;
+ margin: 100px auto ;
+ text-align: auto;
+ line-height: 2;
+}
+.Eating{
+    float: left;
+    margin-right: 30px;
+
+}
+.programmer {
+    float:right;
+    margin-left: 30px;
+}
+
+.programmer-note {
+    animation: 2s slide-right;
+    animation-delay: 0s;
+  }
+  
+  @keyframes slide-right {
+    from {
+      margin-left: -500px;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+  .btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container{
+    background-color:#66bfbf;
+    padding:40px 0px 20px 0px;
+}
+
+.last{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
